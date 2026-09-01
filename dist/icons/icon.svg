@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- MarketLog icon: market-green field, white stall canopy + rising sales bars -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1e7a5a"/>
+      <stop offset="1" stop-color="#155f45"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="108" fill="url(#bg)"/>
+  <!-- canopy -->
+  <path d="M112 208 L144 128 Q256 108 368 128 L400 208 Q256 232 112 208 Z" fill="#f8f5ee"/>
+  <path d="M144 128 Q256 108 368 128 L368 148 Q256 130 144 148 Z" fill="#e8e2d4"/>
+  <!-- poles -->
+  <rect x="146" y="214" width="18" height="150" rx="9" fill="#f8f5ee"/>
+  <rect x="348" y="214" width="18" height="150" rx="9" fill="#f8f5ee"/>
+  <!-- sales bars -->
+  <rect x="196" y="286" width="34" height="78" rx="10" fill="#f2b84b"/>
+  <rect x="239" y="250" width="34" height="114" rx="10" fill="#f8f5ee"/>
+  <rect x="282" y="216" width="34" height="148" rx="10" fill="#f2b84b"/>
+  <!-- arrow -->
+  <path d="M180 254 L232 232 L262 250 L318 214 L306 208 L318 202 L338 224 L326 226 L314 226 L262 262 L232 244 L186 264 Z" fill="#f8f5ee" opacity="0.95"/>
+</svg>
